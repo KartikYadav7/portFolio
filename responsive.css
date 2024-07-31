@@ -1,0 +1,498 @@
+@media(max-width:999px){
+    .image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180px;
+        width: 360px;
+    }
+    .head h1{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media(max-width:952px){
+    nav{
+        font-size: 1.8rem;
+    }
+    .card{
+        width: 360px;
+    }
+    .text-1 {
+        font-size: 1.8rem;
+      
+    }
+    .mail {
+        font-size: 1.8rem;}
+        
+    .iconn{
+            height: 35px;
+            width:35px;
+        
+        }
+    .footer-text{
+        font-size: 1.6rem;
+    }
+    .logo-2{
+        height: 40px;
+        width: 40px;
+    }
+
+}
+@media(max-width:870px){
+    nav{
+        font-size: 1.6rem;
+        gap: 40px;
+    }
+    .about p {
+        margin: 4rem 0 4rem 1.5rem;
+        font-size: 1.8rem;
+    }
+    .image{
+        width: 320px;height: 160px;
+
+        background-size: contain;
+        /* height: 160px; */
+    }
+    .box{
+        font-size: 1.3rem;
+    }
+    .card{
+        margin: .5rem;
+        width: 320px;
+    }
+    .icon img {
+        height: 85px;
+        width: 85px;}
+    .text{
+        margin: 2rem 0;
+    }
+    .text-1 {
+        font-size: 1.6rem;
+      
+    }
+    .mail {
+        font-size: 1.6rem;}
+
+        .pro{
+            margin-right: 5%;
+        }
+}
+
+@media(max-width:790px){
+    .image{
+        width: 320px;
+        /* height: 150px; */
+
+    }
+    .box{
+        padding: 0.5rem ;
+        margin: .5rem;
+    }
+    .head h1{
+        font-size: 32px;
+    }
+    .head p{
+        font-size: 28px;
+    }
+
+.text-1 {
+    font-size: 1.4rem;
+  
+}
+.mail {
+    font-size: 1.4rem;}
+    .project-1{
+        margin: 2rem 3rem;
+    }
+}
+@media(max-width:740px){
+    .contact{
+        margin: 0 2rem;
+    }
+    .container {
+        margin: 1rem 0 3rem 0;
+}.text{
+    margin: 1.5rem 0;
+}
+}
+
+@media(max-width:710px){
+.logo{
+    height: 45px;
+    width: 45px;
+}
+.line{
+    height: 70px;
+    width: 30px;
+}
+    .box{
+        margin: 0;
+        /* padding: 0; */
+    }
+    .image{
+        width: 280px;
+        height: 130px;
+    }
+    .team{
+        margin: 1rem auto;
+    }
+    .card{
+        width: 275px;
+    }
+    .contact{
+        margin: 0 2rem;
+    }
+    .text-1{
+        line-height: 30px;
+    }
+    .team{
+        margin-left: 4rem;
+    }
+    .team-logo{
+        height: 24rem;
+        width: 30rem;
+    }
+.text{
+
+    margin: 1rem 0;
+}
+.mail{
+    margin: 1rem 0;
+}
+.iconn{
+    height: 30px;
+    width: 30px;
+}
+.logo-2{
+    height: 35px;
+    width: 35px;
+}
+.footer-text{
+    font-size: 1.4rem;
+}
+.h-2{
+    font-size: 32px;
+}
+}
+@media(max-width:675px){
+    .contact{
+        margin: 0 1.5rem;
+    }
+    header{
+        justify-content: space-around;
+    }
+    .pic {
+        height: 220px;
+        width: 220px;
+}
+.content{
+    font-size: 3.5rem;
+}
+.soft{
+    font-size: 3.5rem;
+}
+.about p {
+    margin: 3rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+}
+@media(max-width:625px
+){
+    .text-1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:600px){
+    .full{
+        margin: 0;
+    }
+    .pro{
+        text-align: left;
+        margin-left: 7%;
+    }
+    header{
+        height: 50px;
+    }
+    .logo {
+        height: 40px;
+        width: 40px;
+    }
+    nav {
+        font-size: 1.3rem;
+        gap: 30px;
+    }
+    .pic{
+        height: 200px;
+        width: 200px;
+    }
+    .content ,
+    .soft{
+        font-size: 3rem;
+    }
+    .soft{
+        margin: 0 1rem;
+    }
+    .para{
+        font-size: 1.2rem;
+    }
+    .para-2 p{
+        margin: 0 1rem;
+    }
+    .about p {
+        margin: 2.5rem 1rem;
+        font-size: 22px;
+    }
+    .icon img {
+        height: 70px;
+        width: 70px;
+    }
+    .head h1 {
+        font-size: 28px;
+    }
+    .head p {
+        font-size: 24px;
+    }
+    .card {
+        width: 240px;
+    }
+    .team {
+        margin-left: 1rem;}
+    .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    .box{
+       
+        width: 96%;
+    }
+    .image{
+        height: 240px;
+        background-size: cover;
+margin: 1rem auto;
+        width: 90vw;
+        /* background-size: contain; */
+    }
+    .text-1{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .text {
+        font-size: 2.5rem;
+    }
+    .footer{
+        height: 50px;
+    }
+    .footer-text{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:560px){
+    .contact{
+        margin: 0 1rem;
+    }
+}
+
+@media(max-width:520px){
+.cards{
+    flex-direction: column;
+    justify-content: center;
+    width: 92%;
+    align-items: center;
+}
+.card{
+    width: 92%;
+}
+.about p {
+    margin: 2rem 1rem;
+    font-size: 18px;
+}
+.pic {
+    height: 180px;
+    width: 180px;
+}
+.content,.soft {
+    font-size: 2.4rem;
+}
+.para-2 p {
+    font-size: 20px;
+    margin: 0 1rem;
+}
+button{
+    font-size: 1.3rem;
+}
+.team p {
+    font-size: 1.4rem;
+}
+.team-logo{
+    width: 28rem;
+    height: 21rem;
+    background-size: cover;
+}
+.team{
+    margin: 0 ;
+}
+.teamm {
+    margin-left: 2rem;
+    font-size: 1rem
+}
+.image{
+    height: 180px;
+    width: 80vw;
+    background-size: contain;
+}
+.box{
+    padding: 0;
+    margin: .5rem;
+    width: 85%;
+}
+.container{
+    margin: 1rem 0 2rem 0;
+}
+}
+
+@media(max-width:449px){
+    .team-logo {
+        background-size: contain;
+        margin-left: 1rem;
+        width: 24rem;
+        height: 18rem;
+    }
+    .project-1 {
+        margin: 2rem ;
+    }
+    .image{
+        height: 170px;
+    }
+ 
+    .teamm {
+        margin-left: 1rem;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+@media (max-width:400px) {
+    header{
+        height: 45px;
+    }
+    .about p {
+        margin: 2rem .8rem;
+        font-size: 16px;
+    }
+    .logo {
+        height: 35px;
+        width: 35px;
+    }
+    nav{
+        font-size: 1.2rem;
+        gap: 20px;
+    }
+    .pic {
+        height: 160px;
+        width: 165px;
+    }
+    .me{
+        left: 25%;
+    }
+    .skills{
+        font-size: 3rem;
+    }
+    .cards{
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+    }
+    .team-logo {
+        margin-left: 0;
+}
+.image {
+    height: 160px;
+    width: 85vw;
+}
+.content, .soft {
+    font-size: 40px;
+}
+.exp h1{
+    font-size: 36px;
+    margin: 1rem 2rem;
+}
+
+.head h1{
+    font-size: 26px;
+    margin: 8px;
+}
+}
+@media(max-width:382px){
+    .pic {
+        height: 140px;
+        width: 145px;
+    }
+    .team{
+        margin: 5px 15px;
+    }
+    .team-logo{
+        width: 18rem;
+        height: 14rem;
+        background-size: cover;
+    }
+    .h-2{
+        font-size: 24px;
+    }
+    .h {
+        font-size: 20px;
+    }
+    .box {
+        font-size: 20px;
+    }
+    .container {
+        margin: 1rem ;
+    }
+    .text {
+        font-size: 28px;
+    }
+    .iconn {
+        height: 25px;
+        width: 25px;
+    }
+    .logo-2{
+       height: 30px;
+       width: 30px;
+    }
+    .footer-text {
+        font-size: 1rem;
+    }
+    .team {
+        margin: 1rem auto;
+    }
+    .team p {
+        font-size: 18px;
+    }
+    .teamm{
+        margin-left: 0;
+    }
+    .cards{
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+    .image {
+        height: 140px;
+        margin :.5rem 0;
+}}
+@media(max-width:335px){
+    .soft{
+        font-size: 35px;
+    
+    }
+    .image {
+        height: 125px;
+
+}
+}
+
