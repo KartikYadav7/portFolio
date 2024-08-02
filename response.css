@@ -228,6 +228,9 @@ footer-text {
     .image{
         height: 12.5rem;
     }
+    main{
+        overflow-x: hidden;
+    }
 }
 @media(max-width:560px){
     .pic {
@@ -334,7 +337,7 @@ footer-text {
     .card h1{
         margin: .5rem;
     }
-    body{
+    main{
         overflow-x: hidden;
     }
 }
