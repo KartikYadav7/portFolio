@@ -233,9 +233,6 @@ footer-text {
     }
 }
 @media(max-width:560px){
-    *{
-        font-family:none;
-    }
     .pic {
         height: 170px;
         width: 170px;
@@ -254,7 +251,7 @@ footer-text {
         font-size: 18px;
     } */
     .teamm{
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
     .footer{
         height: 50px;
@@ -317,7 +314,7 @@ footer-text {
     margin-left: 1rem;
 }
 .team p {
-    font-size: 19px;
+    font-size: 16px;
 }
 .teamm {
     font-size: 12px;
@@ -342,9 +339,6 @@ footer-text {
     }
     main{
         overflow-x: hidden;
-    }
-    .text-1{
-        line-height: 20px;
     }
 }
 
@@ -412,7 +406,7 @@ footer-text {
         font-size: 13px;
     }
     .team p {
-        font-size: 17px;
+        font-size: 15px;
     }
     .teamm{
         font-size: 11px;
@@ -437,7 +431,7 @@ footer-text {
         overflow-x: hidden;
     }
    .team p{
-    font-size: 16px;
+    font-size: 14px;
    }
    .teamm{
     margin-left: 1rem;
@@ -476,10 +470,10 @@ footer-text {
 }
 @media(max-width:342px){
     .team p{
-        font-size: 15px;
+        font-size: 13px;
     }
     .teamm {
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
     .head h1{
         font-size: 19px;
