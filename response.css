@@ -178,6 +178,7 @@ footer-text {
         .cards{
             flex-direction: column;
             flex-wrap: wrap;
+            margin:0 auto
         }
         .card{
             margin-left:2rem ;
