@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body">
+    <div class="contact-container">
+      <h1>Let's Connect</h1>
+
+      <form id="contact-form"  method="post">
+       Name *
+        <input type="text" name="name" required 
+       id="name"
+       />
+        E-mail*
+        <input type="email" name="email" required
+        id="email" />
+       Contact No.
+        <input type="number" name="number" 
+        id="number"/>
+       Preferred Contact Method:
+       
+          <div class="input">
+            <input
+              type="radio"
+              name="contactMethod"
+              id="checkbox1-email"
+              value="E-mail"
+              required
+             
+            />
+            E-mail
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="contactMethod"
+              id="checkbox2-mobile"
+              value="Mobile"
+             
+            />
+            Mobile
+          </div>
+        
+        Any Queries:
+        
+          <textarea
+
+            name="message"
+            id="message"
+            rows="10"
+            cols="18"
+           onfocus=this.value=''
+          >
+Write Your Queries</textarea
+          >
+       
+          <p id="status-message"></p>
+        <div class="
+        btn">
+          <button type="submit" value="send"  id="submit-button">Submit</button>
+          <button type="reset" id="reset-button">Reset</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js" referrerpolicy="no-referrer"></script>
+
+  <script src="config.js"></script>
+  <script src="index.js" ></script>
+  </body>
+</html>
