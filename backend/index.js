@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000
 
 app.use(cors({
-  origin: ["https://port-folio-frontend-nine.vercel.app/", "http://localhost:5500"],
+  origin: ["https://port-folio-frontend-nine.vercel.app", "http://localhost:5500"],
   methods: "GET,POST,PUT,DELETE",
   credentials: true  
 }));
