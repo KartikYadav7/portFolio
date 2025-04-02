@@ -10,6 +10,9 @@ app.use(cors({origin: "*"}))
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 
+app.get('/',(req,res)=>{
+res.send("Hello World")
+})
 app.post('/contact',async(req,res)=>{
     const { name,
         email,
