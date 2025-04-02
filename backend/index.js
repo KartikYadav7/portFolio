@@ -6,7 +6,11 @@ const cors=require('cors')
 const app = express();
 const PORT = process.env.PORT || 5000
 
-app.use(cors({origin: "*"}))
+app.use(cors({
+  origin: "https://your-frontend.vercel.app",  // ✅ Replace with your frontend URL
+  methods: "GET,POST,PUT,DELETE",
+  credentials: true  
+}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 

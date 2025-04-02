@@ -3,7 +3,7 @@ const contactForm = document.getElementById("contact-form");
 const submit=document.getElementById("submit-button");
 const reset= document.getElementById("reset-button");
 
-const BACKEND_URL = CONFIG.BACKEND_URL;
+const BACKEND_URL = CONFIG.BACKEND_URL || "https://port-folio-iota-sandy.vercel.app";
 
 
 contactForm.addEventListener("submit", function (e) {
